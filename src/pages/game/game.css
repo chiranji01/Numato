@@ -1,0 +1,147 @@
+
+#question-image {
+    text-align: center;
+    margin-top: 150px;
+     display: flex;
+     justify-content: center; 
+     align-items: center;
+     border: 2px solid #11002C;
+ }
+
+ .img1{
+    background-image: url("/src/images/image1.png");
+    margin-left: -600px;
+    background-size:cover;
+    position: absolute;
+    left: 50%;
+    width: 30%;
+    height: 60%; 
+    max-width: 400px;  
+    bottom: -2%; 
+ }
+
+
+
+ .bg {
+     position: fixed;
+     top: 0;
+     left: 0;
+     width: 100%;
+     height: 100%;
+     z-index: -1; 
+     background-image: url('/src/images/bgimage2.jpg');
+     background-size: cover;
+     background-position: center;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     flex-direction: column;
+ }
+ 
+ #input {
+    margin-top: 10px;
+    justify-content: center;  
+    padding: 15px;
+    width: 60px; 
+    margin-left: auto; 
+    margin-right: auto; 
+    border: 2px solid #11002C; 
+    border-radius: 10px; 
+ }
+ 
+ .mute-btn {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    background: transparent;
+    font-size: 2em; 
+    border: none;
+    cursor: pointer;
+    outline: none;
+  }
+
+
+ .next-btn {
+     background-color: #11002C;
+     color: #f2f3f6;
+     transition: 0.5;
+     cursor: pointer;
+     border-radius: 20px;
+     height: 60px;
+     margin: 15px 0 10px 0;
+     font-size: 25px;
+     font-weight: 400;
+     margin-left: 70%;
+     width: 8%;
+     position: relative;
+     bottom: 5%;
+     border: 2px solid #11002C;
+     
+ }
+ 
+ .next-btn:hover {
+    background-color: #0192CE;  
+}
+
+ #note {
+     margin-top: 15px;
+     font-size: 35px;
+     color: #11002C;
+     text-align: center;
+     justify-content: center; 
+     padding: 10px;
+     margin-left: auto; 
+     margin-right: auto; 
+     
+ }
+
+ #timer{
+   margin-left:18%;
+   font-size: 25px;
+   position: absolute;
+   top: 96px;
+   left: 50%;
+   transform: translateX(-50%);
+   color: white;
+ }
+ 
+ 
+ #score{
+   margin-left: -18%;
+   font-size: 25px;
+   position: absolute;
+   top: 96px;
+   left: 50%;
+   transform: translateX(-50%);
+   color: white;
+ }
+
+
+
+ .try-again-btn {
+    background-color: #11002C;
+    color: #f2f3f6;
+    transition: 0.5;
+    cursor: pointer;
+    border-radius: 20px;
+    height: 30px;
+    font-size: 20px;
+    position: relative;
+    bottom: 5%;
+    border: 2px solid #11002C;
+ }
+ 
+ .try-again-btn:hover {
+    background-color: #0192CE;  
+}
+
+ 
+ #level {
+   font-size: 25px;
+   position: absolute;
+   top: 96px;
+   left: 50%;
+   transform: translateX(-50%);
+   color: white;
+ }
+ 
